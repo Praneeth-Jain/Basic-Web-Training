@@ -1,0 +1,22 @@
+﻿@page
+@model project1.Pages.Login.IndexModel
+@{
+}
+
+<div class="cont">
+    <h1>Login </h1>
+    <form action="" class="login-form">
+        <div class="text-cont">
+            <label for="email">Email : </label>
+            <input type="email" id="email" name="email">
+            <label for="password">Password : </label>
+            <input type="password" name="password" id="password">
+            @* @Html.TextBox("Contact_No","",new{@class="contact",@placeholder="Enter your contact number"});
+            @Html.Label("Contact_No","Contact_No"); *@
+        </div>
+        <div class="btn-cont">
+            <input type="submit" value="Login" class="login-btn">
+            <a href="./Register/">Create new Account</a>
+        </div>
+    </form>
+</div>

@@ -1,0 +1,51 @@
+.cont{
+    min-height:100vh ;
+    width: 100vw;
+    background-color: azure;
+}
+
+.input-cont{
+    background-color: floralwhite;
+    height: 30vh;
+    display: grid;
+    place-content: center;
+    width: 100vw;
+}
+
+.notes-inp{
+    height: 10vh;
+    width: 60vw;
+}
+
+.notes-cont{
+    width: 100vw;
+    min-height: 70vh;
+    background-color:wheat;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.p-notes{
+    width: 40vw;
+    background-color: darkslategrey;
+    color: white;
+    text-align: justify;
+    min-height: 10vh;
+    margin: 20px;
+    padding: 10px;
+}
+
+.add-btn{
+    height: 8vh;
+    width: 30vw;
+    margin: auto;
+    background-color: greenyellow;
+    font-weight: 500;
+    font-size: large;
+}
+
+.x-btn{
+    height: 5vh;
+    position: relative;
+    float: left;
+}

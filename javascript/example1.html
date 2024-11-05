@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="para"></p>
+    <p id="addp"></p>
+    <button id="btn">Click me</button>
+    <button id="addbtn">Increment</button>
+    <button id="lessbtn">Decrement</button>
+    <script type="text/javascript">
+        var counter=0;
+        var btn=document.querySelector("#btn");
+        btn.addEventListener("click",function(){
+            alert("Thank you for clicking");
+            var p=document.querySelector("#para")
+            p.innerHTML="Button is Clicked";
+        });
+
+        var add=document.querySelector("#addbtn")
+        add.addEventListener("click",function(){
+            counter+=1
+            var addp=document.querySelector("#addp")
+            addp.innerHTML=counter;
+        });
+        
+        var less=document.querySelector("#lessbtn")
+        less.addEventListener("click",function(){
+            counter-=1
+            var addp=document.querySelector("#addp")
+            addp.innerHTML=counter;
+        })
+
+    </script>
+</body>
+</html>

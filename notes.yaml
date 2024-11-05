@@ -1,0 +1,9 @@
+Two types of Applicationn
+-Standalone :  apps which can be used by a device in which it is installed.
+-web application : apps that can be accessed by web.
+ 
+website: 
+static : whose content remain same
+dynamic : whose contents change acc to users activity
+
+
